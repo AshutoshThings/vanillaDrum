@@ -1,2 +1,2 @@
 # vanillaDrum
-digital Drum with vanillaJS
+Digital Drum with vanillaJS
