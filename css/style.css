@@ -28,26 +28,28 @@
 .box{
 	display: flex;
 	flex-direction: column;
-	border : 1px solid white;
+	border : 3px solid maroon;
 	width: 120px;
 	height: 120px;
 	border-radius: 10px;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
-	color : white;
-	transition: 0.05s;
+	color : #e5c103;
+	transition:all 0.05s;
 	margin : 0 5px;
-	/*background:#272727;*/
 	background: black;
 	opacity: 0.5;
 }
+.group1, .group2{
+	flex-wrap: wrap;
+	margin : 10px 0;
+}
 .group1 .box:last-child{
-	margin-left: 30px;
-	color : #ff9595
+	color : #ff9595;
 }
 .group2 .box:first-child{
-	margin-right: 30px;
+	color : #ff9595;
 }
 .group1 .box .keyName{
 	font-size: 30px;
@@ -64,8 +66,9 @@
 	font-size:15px;
 	align-self: center;
 }
-.box:hover{
-	background : #919191;
-	opacity: 0.4;
-	color:black;
+
+.playing{
+	transform: scale(1.1);
+	border-color:yellow;
+	box-shadow: 0 0 10px darkorange;
 }
